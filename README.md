@@ -17,4 +17,6 @@
 - os 설명 (리눅스, wls2 사용하기로 함)
 - vscode remote wsl2 연결하고 git clone 하기
 - hello world c 프로그램 작성하기
-- literal 프로그램 작성 - int d, char c, char* s, octal o, 
+- literal 프로그램 작성 - int d, char c, char* s, octal o, hex h. float f, double lf, long double ldf, long long ll, unsigned int u, unsigned long long llu, pointer p, string s
+- limit 프로그램 작성 - int, char,float, double, long double, long long, unsigned int, unsigned long long
+- 과제: 
