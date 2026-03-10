@@ -1,12 +1,8 @@
-TARGET = hello limit literal charNumber string oddEven triangle triangle2 compare compare2
+SRCS = ${wildcard *.c}
+TARGET = $(SRCS:.c=)
 
 all: ${TARGET}
 
-hello: $@
-limit: $@
-literal: $@
-charNumber: $@
-string: $@
 
 clean :
 	rm ${TARGET}

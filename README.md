@@ -19,4 +19,9 @@
 - hello world c 프로그램 작성하기
 - literal 프로그램 작성 - int d, char c, char* s, octal o, hex h. float f, double lf, long double ldf, long long ll, unsigned int u, unsigned long long llu, pointer p, string s
 - limit 프로그램 작성 - int, char,float, double, long double, long long, unsigned int, unsigned long long
-- 과제: 
+- 과제 : 마크다운 정리UTUBE 마크다운 블로그
+- 과제 : mermaid 로 그래프 그리기 해보기
+
+0310
+- makefile
+- 연산자 - oddEven, string, triangle, triangle2, compare, compare2
