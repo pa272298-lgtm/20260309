@@ -20,3 +20,5 @@
 - literal 프로그램 작성 - int d, char c, char* s, octal o, hex h. float f, double lf, long double ldf, long long ll, unsigned int u, unsigned long long llu, pointer p, string s
 - limit 프로그램 작성 - int, char,float, double, long double, long long, unsigned int, unsigned long long
 - 과제: 
+
+-c make / ninja
