@@ -34,3 +34,8 @@ for (A 초기화 ; C 조건 ; D 실행코드/증감식) // 순서 A->C->B->C
      }
 
 while문
+
+
+0312 part3
+포인터 (변수) -> 주소값을 저장하는 변수
+선언 int *pvalue / pvalue -> 주소 / *pvalue -> 100
