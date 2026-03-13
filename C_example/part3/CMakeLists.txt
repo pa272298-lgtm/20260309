@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.10)
-project(kuBig2026)
+project(si2026)
 
-add_executable(add add.c)
+add_executable(qsort qsort.c)
