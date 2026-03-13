@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-project(baseballgame)
+project(baseballGame)
 
 include_directories(${CMAKE_CURRENT_LIST_DIR})
 
-add_executable(baseballgame main.c baseballgame.c)
+add_executable(baseballGame main.c baseballGame.c)
