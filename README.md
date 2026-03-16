@@ -76,3 +76,5 @@ Cmake->baseballGame
 대소문자 구분
 사용자 정의 타입만 대문자
 소문자 - 식별자, 함수명, 변수명, *built-in type -> 소문자
+- struct: 사용자 정의 타입 -> 데이터를 묶어서 다룰때
+- typedef A B: 별명 붙이기(가독성 높아짐)
