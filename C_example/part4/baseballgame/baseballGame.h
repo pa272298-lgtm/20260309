@@ -1,5 +1,5 @@
-#ifndef BASEBALLGAME_H
-#define BASEBALLGAME_H
+#ifndef BASEBALLGAME_H              
+#define BASEBALLGAME_H                    // or #pramga once
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,8 +7,10 @@
 #include <stdbool.h>
 #define SIZE 3
 
-#endif
+
 
 void generate_number(int* question);
 void input_numbers(int* answer);
 bool check_result(const int* question,const int* answer,int* strike,int* ball);
+
+#endif

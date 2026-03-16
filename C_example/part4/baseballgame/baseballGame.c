@@ -16,9 +16,9 @@ void generate_number(int* question)
         }
     }
     // 임시로 체크
-    for (int i = 0; i < SIZE;++i){
-        printf("%d ", question[i]);
-    }
+    //for (int i = 0; i < SIZE;++i){
+    //    printf("%d ", question[i]);
+    //}
 }
 
 void input_numbers(int* answer)
