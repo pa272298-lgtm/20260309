@@ -78,3 +78,9 @@ Cmake->baseballGame
 소문자 - 식별자, 함수명, 변수명, *built-in type -> 소문자
 - struct: 사용자 정의 타입 -> 데이터를 묶어서 다룰때
 - typedef A B: 별명 붙이기(가독성 높아짐)
+
+<0317>
+표준 입출력 함수 - read() 입력 / write() 출력
+입력 get / 출력 put
+
+*동적할당 allocate -> 메모리 변수, 상수 지정
