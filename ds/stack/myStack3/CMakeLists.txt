@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(queue1)
+project(stack3)
 
 include_directories(${CMAKE_CURRENT_LIST_DIR})
-add_executable(queue1 main.c queue1.c)
+add_executable(stack3 main.c stack3.c)

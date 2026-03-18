@@ -7,10 +7,10 @@ void initQueue(Qu *pQu)
 }
 void push(Qu *pQu, int data)
 {
-    if(pQu->rear == ARRAYSIZE){
+    if(pQu->rear == pQu->queue+ARRAYSIZE){
         pQu->rear = pQu->queue;
     }
-    if(pQu->rear+1 == pQu->front){
+    if(pQu->rear + 1 == pQu->front){
         fprintf(stderr, "stack is full\n");
         exit(1);
     }
@@ -18,7 +18,7 @@ void push(Qu *pQu, int data)
 }
 int pop(Qu *pQu)
 {
-    if(pQu->front == ARRAYSIZE){
+    if(pQu->front == pQu->queue+ARRAYSIZE){
         pQu->front = pQu->queue;
     }
     if(pQu->front == pQu->rear){
