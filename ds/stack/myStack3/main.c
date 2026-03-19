@@ -25,6 +25,20 @@ int main(void)
 
     printf("s1 스택 메모리 사이즈는 : %d\n", s1.size);
     printf("s2 스택 메모리 사이즈는 : %d\n", s2.size);
+
+    // size를 넘겼을 때 assert작동 확인
+    // max index 를 넘어 갔을 때 101개 채울 때 에러
+    for (int i = 0; i < 101;++i){
+        push(&s2, i);
+        printf("%d , \n", i);
+    }
+    // 데이터가 부족할 때
+    for (int i = 0; i < 102; ++i)
+    {
+        printf("n번째 pop(): %d\n",i, pop(&s2));
+    }
+    return 0;
+    // data가 없을 때 assert작동 확인
     cleanupStack(&s1);
     cleanupStack(&s2);
     return 0;
