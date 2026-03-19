@@ -84,3 +84,17 @@ Cmake->baseballGame
 입력 get / 출력 put
 
 *동적할당 allocate -> 메모리 변수, 상수 지정
+
+<0318>
+자료구조 DS
+-Stack (LIFO last in first out)
+-queue (FIFO first in first out)
+-> 속도,순회 빠름 
+-list (자기참조 동적할당)
+-> 삽입,삭제가 쉽다
+
+<0319>
+IoT 펌웨어 -> MCU -> 스마트홈, 스마트팜, 스마트팩토리, 로봇
+네트워크 - 소켓통신 버퍼(레지스트리)
+
+MQTT 소켓(TCP UDP) -> 브로커(서버)
