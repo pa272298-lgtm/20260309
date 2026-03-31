@@ -40,3 +40,6 @@ ExternalProject_Add(pico_project
 		-DPICO_SDK_PATH=${CMAKE_SOURCE_DIR}/pico/pico-sdk
 	INSTALL_COMMAND ""
 )
+
+
+

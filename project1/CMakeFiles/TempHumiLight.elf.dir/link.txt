@@ -1,0 +1,1 @@
+/usr/bin/avr-gcc  -mmcu=atmega128 -DF_CPU=16000000UL CMakeFiles/TempHumiLight.elf.dir/TempHumiLight.c.obj CMakeFiles/TempHumiLight.elf.dir/root/test/atmega128/lib/lcd/lcd.c.obj CMakeFiles/TempHumiLight.elf.dir/root/test/atmega128/lib/sht20/SHT2x.c.obj CMakeFiles/TempHumiLight.elf.dir/root/test/atmega128/lib/sht20/TWI_driver.c.obj -o TempHumiLight.elf 
